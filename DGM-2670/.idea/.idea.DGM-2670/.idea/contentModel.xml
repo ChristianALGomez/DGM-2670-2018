@@ -9,7 +9,7 @@
         <e p="FloutData.cs" t="Include" />
         <e p="HealthBar.cs" t="Include" />
         <e p="IfStatements.cs" t="Include" />
-        <e p="PlayerLifes.cs" t="Include" />
+        <e p="PrefabData.cs" t="Include" />
       </e>
       <e p="DGM-2670.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />
