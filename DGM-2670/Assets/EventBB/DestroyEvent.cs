@@ -3,14 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class NewEventScript : MonoBehaviour
+public class DestroyEvent : MonoBehaviour
 {
 
     public UnityEvent Event;
 
-    private void OnMouseDown()
+    private void OnDestroy()
     {
         Event.Invoke();
     }
 }
-
