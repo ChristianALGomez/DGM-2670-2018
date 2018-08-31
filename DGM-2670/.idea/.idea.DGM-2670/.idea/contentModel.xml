@@ -6,8 +6,15 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="EventBB" t="Include">
+          <e p="AnimatorMoveEvent.cs" t="Include" />
+          <e p="ApplicationExitEvent.cs" t="Include" />
+          <e p="ApplicationPauseEvent.cs" t="Include" />
+          <e p="BecomeVisible.cs" t="Include" />
+          <e p="CollisionEnter.cs" t="Include" />
+          <e p="CollisionExit2DEvent.cs" t="Include" />
           <e p="DestroyEvent.cs" t="Include" />
           <e p="MouseDownEvent.cs" t="Include" />
+          <e p="TriggerEnter2DEvent.cs" t="Include" />
           <e p="TriggerEnterEvent.cs" t="Include" />
           <e p="UpdateEvent.cs" t="Include" />
         </e>
