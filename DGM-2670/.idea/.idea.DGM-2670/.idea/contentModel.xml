@@ -13,10 +13,14 @@
           <e p="BecomeVisible.cs" t="Include" />
           <e p="CollisionEnter.cs" t="Include" />
           <e p="CollisionExit2DEvent.cs" t="Include" />
+          <e p="ControllerColliderHitEvent.cs" t="Include" />
           <e p="DestroyEvent.cs" t="Include" />
           <e p="MouseDownEvent.cs" t="Include" />
+          <e p="MouseOverEvent.cs" t="Include" />
           <e p="TriggerEnter2DEvent.cs" t="Include" />
           <e p="TriggerEnterEvent.cs" t="Include" />
+          <e p="TriggerStay2DEvent.cs" t="Include" />
+          <e p="TriggerStayEvent.cs" t="Include" />
           <e p="UpdateEvent.cs" t="Include" />
         </e>
         <e p="Scripts" t="Include">
