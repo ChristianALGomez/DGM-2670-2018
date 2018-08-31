@@ -9,6 +9,7 @@
           <e p="AnimatorMoveEvent.cs" t="Include" />
           <e p="ApplicationExitEvent.cs" t="Include" />
           <e p="ApplicationPauseEvent.cs" t="Include" />
+          <e p="BecomeInvisible.cs" t="Include" />
           <e p="BecomeVisible.cs" t="Include" />
           <e p="CollisionEnter.cs" t="Include" />
           <e p="CollisionExit2DEvent.cs" t="Include" />
