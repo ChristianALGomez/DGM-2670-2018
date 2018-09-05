@@ -23,7 +23,11 @@
           <e p="TriggerStayEvent.cs" t="Include" />
           <e p="UpdateEvent.cs" t="Include" />
         </e>
+        <e p="Floats" t="Include">
+          <e p="FloatDataScript.cs" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
+          <e p="CharacterControllerMovment.cs" t="Include" />
           <e p="EndGame.cs" t="Include" />
           <e p="EVv2.cs" t="Include" />
           <e p="FloutData.cs" t="Include" />
