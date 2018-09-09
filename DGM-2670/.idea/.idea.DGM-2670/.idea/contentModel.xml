@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\10721401\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_DGM-2670.1521164947.00" t="ExcludeRecursive" />
-    <e p="C:\Users\10721401\Documents\Git\DGM-2670-2018\DGM-2670" t="IncludeRecursive">
+    <e p="C:\Users\chris\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\chris\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_DGM-2670.-581473682.00" t="ExcludeRecursive" />
+    <e p="C:\Users\chris\Desktop\DGM-2670-2018\DGM-2670" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="EventBB" t="Include">
@@ -23,13 +24,12 @@
           <e p="TriggerStayEvent.cs" t="Include" />
           <e p="UpdateEvent.cs" t="Include" />
         </e>
-        <e p="Floats" t="Include">
-          <e p="FloatDataScript.cs" t="Include" />
-        </e>
         <e p="Scripts" t="Include">
           <e p="CharacterControllerMovment.cs" t="Include" />
+          <e p="CharacterMovment.cs" t="Include" />
           <e p="EndGame.cs" t="Include" />
           <e p="EVv2.cs" t="Include" />
+          <e p="FloatDataScript.cs" t="Include" />
           <e p="FloutData.cs" t="Include" />
           <e p="HealthBar.cs" t="Include" />
           <e p="IfStatements.cs" t="Include" />
