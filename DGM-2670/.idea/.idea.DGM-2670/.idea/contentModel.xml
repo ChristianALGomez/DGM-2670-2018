@@ -30,6 +30,7 @@
           <e p="EndGame.cs" t="Include" />
           <e p="EVv2.cs" t="Include" />
           <e p="FloatDataScript.cs" t="Include" />
+          <e p="FloatInput.cs" t="Include" />
           <e p="FloutData.cs" t="Include" />
           <e p="HealthBar.cs" t="Include" />
           <e p="IfStatements.cs" t="Include" />
