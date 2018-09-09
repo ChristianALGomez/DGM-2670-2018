@@ -19,8 +19,6 @@ public class CharacterMovment : MonoBehaviour
 	{
 		controller = GetComponent<CharacterController>();
 	}
-
-	public FloatDataScript MoveX, MoveY, MoveZ;
     
 	void Update() {
         
