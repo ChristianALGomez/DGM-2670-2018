@@ -10,6 +10,6 @@ public class FloatInput : FloatDataScript
 
     public override float Value
     { 
-        get { return Input.GetAxis(InputType);}
+        get { return Input.GetAxis(InputType)*value;}
     }
 }
