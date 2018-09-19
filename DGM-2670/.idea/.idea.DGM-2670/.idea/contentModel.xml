@@ -32,6 +32,7 @@
           <e p="FloatDataScript.cs" t="Include" />
           <e p="FloatInput.cs" t="Include" />
           <e p="FloutData.cs" t="Include" />
+          <e p="ForEachLoops.cs" t="Include" />
           <e p="HealthBar.cs" t="Include" />
           <e p="IfStatements.cs" t="Include" />
           <e p="MovePattern.cs" t="Include" />
@@ -39,6 +40,7 @@
           <e p="MovePatternNotGrounded.cs" t="Include" />
           <e p="NewEventScript.cs" t="Include" />
           <e p="PrefabData.cs" t="Include" />
+          <e p="RunCountDown.cs" t="Include" />
         </e>
       </e>
       <e p="DGM-2670.sln" t="IncludeFlat" />
