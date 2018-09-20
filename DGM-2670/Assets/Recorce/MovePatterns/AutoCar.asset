@@ -18,3 +18,4 @@ MonoBehaviour:
   RotX: {fileID: 11400000, guid: e0716d02f76579e46bbddc4fd3fd5431, type: 2}
   RotY: {fileID: 11400000, guid: 9cdd4b52d282b6042aa30aeea8dcf927, type: 2}
   RotZ: {fileID: 11400000, guid: e0716d02f76579e46bbddc4fd3fd5431, type: 2}
+  enabled: 1

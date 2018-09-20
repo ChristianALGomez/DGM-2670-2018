@@ -27,7 +27,7 @@ public class SwitchScripts : MonoBehaviour
         }
         else
         {
-            Plane.enabled = !Plane.enabled;
+            //Plane.enabled = !Plane.enabled;
             Plane.Invoke(controller, transform);
         }
     }
