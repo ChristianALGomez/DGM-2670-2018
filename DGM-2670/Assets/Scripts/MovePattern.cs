@@ -6,12 +6,12 @@ using UnityEngine;
 public class MovePattern : ScriptableObject
 {
     public FloatDataScript gravity;
-
     public FloatDataScript MoveX, MoveY, MoveZ;
     public FloatDataScript RotX, RotY, RotZ;
 	
     protected Vector3 moveDirection;
     private Vector3 rotDirection;
+    public bool enabled;
 
     public virtual void Invoke(CharacterController controller, Transform transform)
     {

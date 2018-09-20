@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="81f2fa1b-9b10-4015-bf24-528761e01eb7" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,48 +12,57 @@
     <session id="-266213905">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.33" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="3" />
+          <entry key="cs" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="3" />
+          <entry key="C#" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="724" />
+          <entry key="cs" value="1052" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="724" />
+          <entry key="C#" value="1052" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CharacterMovment.cs" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovment.cs">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state>
+=======
+            <state relative-caret-position="270">
+              <caret line="20" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+>>>>>>> Stashed changes
               <folding>
-                <marker date="1536610432727" expanded="false" signature="6:78" ph="..." />
-                <marker date="1536610432727" expanded="true" signature="173:400" ph="{...}" />
-                <marker date="1536610432727" expanded="true" signature="274:332" ph="{...}" />
-                <marker date="1536610432727" expanded="true" signature="353:398" ph="{...}" />
+                <marker date="1536944987152" expanded="false" signature="6:78" ph="..." />
+                <marker date="1536944987152" expanded="true" signature="173:400" ph="{...}" />
+                <marker date="1536944987152" expanded="true" signature="274:332" ph="{...}" />
+                <marker date="1536944987152" expanded="true" signature="353:398" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file leaf-file-name="AIAgnent.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/AIAgnent.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -91,49 +99,71 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-              <folding>
-                <marker date="1536783018762" expanded="false" signature="6:78" ph="..." />
-                <marker date="1536783018762" expanded="true" signature="141:1036" ph="{...}" />
-                <marker date="1536783018762" expanded="true" signature="431:554" ph="{...}" />
-                <marker date="1536783018762" expanded="true" signature="472:521" ph="{...}" />
-                <marker date="1536783018762" expanded="true" signature="611:739" ph="{...}" />
-                <marker date="1536783018762" expanded="true" signature="785:1034" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MovePatternNotGrounded.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MovePatternNotGrounded.cs">
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/SwitchScripts.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            <state relative-caret-position="375">
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+>>>>>>> Stashed changes
               <folding>
-                <marker date="1536781577919" expanded="false" signature="6:78" ph="..." />
-                <marker date="1536781577919" expanded="true" signature="146:300" ph="{...}" />
-                <marker date="1536781577919" expanded="true" signature="235:298" ph="{...}" />
+                <marker date="1537472740405" expanded="false" signature="6:97" ph="..." />
+                <marker date="1537472740405" expanded="true" signature="189:734" ph="{...}" />
+                <marker date="1537472740405" expanded="true" signature="319:477" ph="{...}" />
+                <marker date="1537472740405" expanded="true" signature="496:731" ph="{...}" />
+                <marker date="1537472740405" expanded="true" signature="538:643" ph="{...}" />
+                <marker date="1537472740405" expanded="true" signature="656:725" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MovePattern.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <folding>
+                <marker date="1537470614027" expanded="false" signature="6:78" ph="..." />
+                <marker date="1537470614027" expanded="true" signature="141:1060" ph="{...}" />
+                <marker date="1537470614027" expanded="true" signature="455:578" ph="{...}" />
+                <marker date="1537470614027" expanded="true" signature="496:545" ph="{...}" />
+                <marker date="1537470614027" expanded="true" signature="635:763" ph="{...}" />
+                <marker date="1537470614027" expanded="true" signature="809:1058" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< Updated upstream
       <file leaf-file-name="CarToPlane.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CarToPlane.cs">
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MovePatternNotGrounded.cs">
+>>>>>>> Stashed changes
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
               <folding>
+<<<<<<< Updated upstream
                 <marker date="1537389236992" expanded="false" signature="6:78" ph="..." />
                 <marker date="1537389236992" expanded="true" signature="117:593" ph="{...}" />
                 <marker date="1537389236992" expanded="true" signature="292:591" ph="{...}" />
                 <marker date="1537389236992" expanded="true" signature="333:408" ph="{...}" />
                 <marker date="1537389236992" expanded="true" signature="421:558" ph="{...}" />
                 <marker date="1537389236992" expanded="true" signature="455:548" ph="{...}" />
+=======
+                <marker date="1536944987170" expanded="false" signature="6:78" ph="..." />
+                <marker date="1536944987170" expanded="true" signature="146:300" ph="{...}" />
+                <marker date="1536944987170" expanded="true" signature="235:298" ph="{...}" />
+>>>>>>> Stashed changes
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file leaf-file-name="FloatInput.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatInput.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -143,11 +173,22 @@
                 <marker date="1536608139225" expanded="false" signature="6:121" ph="..." />
                 <marker date="1536608139225" expanded="true" signature="207:340" ph="{...}" />
                 <marker date="1536608139225" expanded="true" signature="271:338" ph="{...}" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatDataScript.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <folding>
+                <marker date="1536944987157" expanded="true" signature="6:78" ph="..." />
+                <marker date="1536944987157" expanded="true" signature="257:299" ph="{...}" />
+>>>>>>> Stashed changes
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file leaf-file-name="MovePatternDual.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MovePatternDual.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -160,31 +201,62 @@
                 <marker date="1536783469554" expanded="true" signature="364:444" ph="{...}" />
                 <marker date="1536783469554" expanded="true" signature="457:602" ph="{...}" />
                 <marker date="1536783469554" expanded="true" signature="495:592" ph="{...}" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatInput.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+              <folding>
+                <marker date="1536944987159" expanded="false" signature="6:121" ph="..." />
+                <marker date="1536944987159" expanded="true" signature="271:338" ph="{...}" />
+>>>>>>> Stashed changes
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/IfStatements.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1536944987166" expanded="true" signature="61:277" ph="{...}" />
+                <marker date="1536944987166" expanded="true" signature="158:213" ph="{...}" />
+                <marker date="1536944987166" expanded="true" signature="189:210" ph="{...}" />
+                <marker date="1536944987166" expanded="true" signature="268:275" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+>>>>>>> Stashed changes
     </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/EventBB/MouseOverEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EventBB/AnimatorMoveEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EventBB/ApplicationExitEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EventBB/CollisionEnter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SwitchScripts.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EventBB/UpdateEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EventBB/BecomeVisible.cs" root0="FORCE_HIGHLIGHTING" />
+<<<<<<< Updated upstream
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ForEachLoops.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EventBB/TriggerStay2DEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AIAgnent.cs" root0="FORCE_HIGHLIGHTING" />
+=======
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatDataScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovment.cs" root0="FORCE_HIGHLIGHTING" />
+>>>>>>> Stashed changes
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatInput.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EventBB/CollisionEnter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IfStatements.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewEventScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EventBB/CollisionExit2DEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EventBB/DestroyEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EventBB/MouseDownEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatBool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EVv2.cs" root0="FORCE_HIGHLIGHTING" />
+<<<<<<< Updated upstream
     <setting file="file://$PROJECT_DIR$/Assets/EventBB/TriggerStayEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RunCountDown.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EventBB/ControllerColliderHitEvent.cs" root0="FORCE_HIGHLIGHTING" />
@@ -194,12 +266,22 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CarToPlane.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EventBB/TriggerEnter2DEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EventBB/ApplicationExitEvent.cs" root0="FORCE_HIGHLIGHTING" />
+=======
+    <setting file="file://$PROJECT_DIR$/Assets/EventBB/CollisionExit2DEvent.cs" root0="FORCE_HIGHLIGHTING" />
+>>>>>>> Stashed changes
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MovePattern.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MovePatternDual.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EventBB/BecomeInvisible.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovment.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MovePatternNotGrounded.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EventBB/TriggerEnterEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatDataScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EventBB/ApplicationPauseEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EventBB/MouseOverEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EventBB/TriggerStay2DEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EventBB/AnimatorMoveEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EventBB/TriggerStayEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EventBB/TriggerEnter2DEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EventBB/ControllerColliderHitEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EventBB/DestroyEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EventBB/MouseDownEvent.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -242,6 +324,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatBool.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MovePatternNotGrounded.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MovePatternDual.cs" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/Assets/Scripts/RunCountDown.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ForEachLoops.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AIAgnent.cs" />
@@ -254,6 +337,17 @@
     <option name="x" value="306" />
     <option name="y" value="-13" />
     <option name="width" value="1073" />
+=======
+        <option value="$PROJECT_DIR$/Assets/Scripts/MovePattern.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SwitchScripts.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="305" />
+    <option name="y" value="-15" />
+    <option name="width" value="1075" />
+>>>>>>> Stashed changes
     <option name="height" value="870" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -276,6 +370,12 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
+<<<<<<< Updated upstream
+=======
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+>>>>>>> Stashed changes
       <pane id="FileSystemExplorer" />
     </panes>
   </component>
@@ -296,7 +396,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Attach Unity.Attach to Unity Editor">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
@@ -305,9 +405,11 @@
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Attach Unity.Attach to Unity Editor" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor &amp; Play" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -323,15 +425,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< Updated upstream
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+=======
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+>>>>>>> Stashed changes
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0063965884" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0060402686" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" order="12" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Unit Tests" order="9" />
+<<<<<<< Updated upstream
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -340,15 +454,19 @@
       <window_info anchor="bottom" id="NuGet" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+=======
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Unity" order="12" />
+>>>>>>> Stashed changes
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Unit Tests Coverage" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="4" />
     </layout>
   </component>
-  <component name="UnityProjectConfiguration" isUnityUI="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -364,6 +482,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovment.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -609,6 +728,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> Stashed changes
     <entry file="file://$PROJECT_DIR$/Assets/PrefabData.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/IfStatments.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/IfStatements.cs" />
@@ -672,6 +793,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Floats/FloatDataScript.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterControllerMovment.cs" />
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatDataScript.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -679,24 +801,33 @@
           <folding>
             <marker date="1536606191643" expanded="false" signature="6:78" ph="..." />
             <marker date="1536606191643" expanded="true" signature="257:299" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatBool.cs">
+=======
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatBool.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MovePatternDual.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatInput.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="135">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
           <folding>
-            <marker date="1536780467308" expanded="false" signature="6:121" ph="..." />
-            <marker date="1536780467308" expanded="true" signature="203:456" ph="{...}" />
-            <marker date="1536780467308" expanded="true" signature="237:454" ph="{...}" />
-            <marker date="1536780467308" expanded="true" signature="255:448" ph="{...}" />
-            <marker date="1536780467308" expanded="true" signature="309:367" ph="{...}" />
-            <marker date="1536780467308" expanded="true" signature="384:438" ph="{...}" />
+            <marker date="1536944987159" expanded="false" signature="6:121" ph="..." />
+            <marker date="1536944987159" expanded="true" signature="271:338" ph="{...}" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatDataScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <marker date="1536944987157" expanded="true" signature="6:78" ph="..." />
+            <marker date="1536944987157" expanded="true" signature="257:299" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/AIAgnent.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -708,30 +839,53 @@
             <marker date="1537388073849" expanded="true" signature="577:674" ph="{...}" />
             <marker date="1537388073849" expanded="true" signature="722:772" ph="{...}" />
             <marker date="1537388073849" expanded="true" signature="799:866" ph="{...}" />
+=======
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/IfStatements.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1536944987166" expanded="true" signature="61:277" ph="{...}" />
+            <marker date="1536944987166" expanded="true" signature="158:213" ph="{...}" />
+            <marker date="1536944987166" expanded="true" signature="189:210" ph="{...}" />
+            <marker date="1536944987166" expanded="true" signature="268:275" ph="{...}" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ForEachLoops.cs">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="210">
           <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
           <folding>
             <marker date="1537387380198" expanded="false" signature="6:78" ph="..." />
             <marker date="1537387380198" expanded="true" signature="143:529" ph="{...}" />
             <marker date="1537387380198" expanded="true" signature="266:527" ph="{...}" />
+=======
+        <state>
+          <folding>
+            <marker date="1536944987170" expanded="false" signature="6:78" ph="..." />
+            <marker date="1536944987170" expanded="true" signature="146:300" ph="{...}" />
+            <marker date="1536944987170" expanded="true" signature="235:298" ph="{...}" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovment.cs">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state>
+=======
+        <state relative-caret-position="270">
+          <caret line="20" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+>>>>>>> Stashed changes
           <folding>
-            <marker date="1536610432727" expanded="false" signature="6:78" ph="..." />
-            <marker date="1536610432727" expanded="true" signature="173:400" ph="{...}" />
-            <marker date="1536610432727" expanded="true" signature="274:332" ph="{...}" />
-            <marker date="1536610432727" expanded="true" signature="353:398" ph="{...}" />
+            <marker date="1536944987152" expanded="false" signature="6:78" ph="..." />
+            <marker date="1536944987152" expanded="true" signature="173:400" ph="{...}" />
+            <marker date="1536944987152" expanded="true" signature="274:332" ph="{...}" />
+            <marker date="1536944987152" expanded="true" signature="353:398" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -762,22 +916,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MovePattern.cs">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="225">
           <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+=======
+        <state relative-caret-position="405">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+>>>>>>> Stashed changes
           <folding>
-            <marker date="1536783018762" expanded="false" signature="6:78" ph="..." />
-            <marker date="1536783018762" expanded="true" signature="141:1036" ph="{...}" />
-            <marker date="1536783018762" expanded="true" signature="431:554" ph="{...}" />
-            <marker date="1536783018762" expanded="true" signature="472:521" ph="{...}" />
-            <marker date="1536783018762" expanded="true" signature="611:739" ph="{...}" />
-            <marker date="1536783018762" expanded="true" signature="785:1034" ph="{...}" />
+            <marker date="1537470614027" expanded="false" signature="6:78" ph="..." />
+            <marker date="1537470614027" expanded="true" signature="141:1060" ph="{...}" />
+            <marker date="1537470614027" expanded="true" signature="455:578" ph="{...}" />
+            <marker date="1537470614027" expanded="true" signature="496:545" ph="{...}" />
+            <marker date="1537470614027" expanded="true" signature="635:763" ph="{...}" />
+            <marker date="1537470614027" expanded="true" signature="809:1058" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MovePatternDual.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SwitchScripts.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
+<<<<<<< Updated upstream
           <caret line="28" column="1" selection-start-line="6" selection-start-column="42" selection-end-line="28" selection-end-column="1" />
           <folding>
             <marker date="1536783469554" expanded="false" signature="6:110" ph="..." />
@@ -786,6 +946,16 @@
             <marker date="1536783469554" expanded="true" signature="364:444" ph="{...}" />
             <marker date="1536783469554" expanded="true" signature="457:602" ph="{...}" />
             <marker date="1536783469554" expanded="true" signature="495:592" ph="{...}" />
+=======
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <marker date="1537472740405" expanded="false" signature="6:97" ph="..." />
+            <marker date="1537472740405" expanded="true" signature="189:734" ph="{...}" />
+            <marker date="1537472740405" expanded="true" signature="319:477" ph="{...}" />
+            <marker date="1537472740405" expanded="true" signature="496:731" ph="{...}" />
+            <marker date="1537472740405" expanded="true" signature="538:643" ph="{...}" />
+            <marker date="1537472740405" expanded="true" signature="656:725" ph="{...}" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
