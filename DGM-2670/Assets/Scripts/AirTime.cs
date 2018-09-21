@@ -6,17 +6,16 @@ using UnityEngine.UI;
 public class AirTime : MonoBehaviour {
 
 	private Text label;
-	private 
 
 	
     
 	IEnumerator Start()
-	{
+	{	
 		label = GetComponent<Text>();
 
 		int number = 0;
 
-		while (movement)
+		while (number > 0)
 		{
 			yield return new WaitForSeconds(0.1f);
 			label.text = number.ToString();

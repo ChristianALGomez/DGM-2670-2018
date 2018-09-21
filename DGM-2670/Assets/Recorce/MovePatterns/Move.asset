@@ -9,10 +9,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d76d4d9f683d7c141a7de92d52610d2e, type: 3}
-  m_Name: AutoAirPlane
+  m_Name: Move
   m_EditorClassIdentifier: 
-  gravity: {fileID: 11400000, guid: e0716d02f76579e46bbddc4fd3fd5431, type: 2}
-  MoveX: {fileID: 11400000, guid: 1fc2a5bcf84f6894ea9f131fbff86bc6, type: 2}
+  gravity: {fileID: 11400000, guid: 65b6804a14a15d34d808723879334c9f, type: 2}
+  MoveX: {fileID: 11400000, guid: 5a1f936d86ee6f0448185db3df268879, type: 2}
   MoveY: {fileID: 11400000, guid: e0716d02f76579e46bbddc4fd3fd5431, type: 2}
   MoveZ: {fileID: 11400000, guid: e0716d02f76579e46bbddc4fd3fd5431, type: 2}
   RotX: {fileID: 11400000, guid: e0716d02f76579e46bbddc4fd3fd5431, type: 2}
