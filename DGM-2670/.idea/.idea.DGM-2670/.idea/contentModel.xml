@@ -27,6 +27,7 @@
         <e p="Scripts" t="Include">
           <e p="AIAgnent.cs" t="Include" />
           <e p="AirTime.cs" t="Include" />
+          <e p="AISpeedUp.cs" t="Include" />
           <e p="CameraMovment.cs" t="Include" />
           <e p="CarToPlane.cs" t="Include" />
           <e p="CharacterMovment.cs" t="Include" />
