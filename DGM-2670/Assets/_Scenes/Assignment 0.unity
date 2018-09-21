@@ -325,6 +325,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Car: {fileID: 11400000, guid: 5206b7c27f44dee48a4083ee4db3be30, type: 2}
   Plane: {fileID: 11400000, guid: 222792bf3f9f7a244b5c7dd190242924, type: 2}
+  Air: {fileID: 0}
 --- !u!143 &1082351186
 CharacterController:
   m_ObjectHideFlags: 0
@@ -482,7 +483,6 @@ GameObject:
   - component: {fileID: 1564528809}
   - component: {fileID: 1564528808}
   - component: {fileID: 1564528807}
-  - component: {fileID: 1564528811}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -546,27 +546,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1564528806}
-  m_LocalRotation: {x: 0.028335337, y: -0, z: -0, w: 0.99959844}
-  m_LocalPosition: {x: 5.7757854, y: 0.65000004, z: -16.630001}
+  m_LocalRotation: {x: 0.13765389, y: -0, z: -0, w: 0.9904804}
+  m_LocalPosition: {x: -5.88, y: 7.21, z: -31.04}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 3.2470002, y: 0, z: 0}
---- !u!114 &1564528811
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1564528806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51b652949da29314ba363e5c2fd43889, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1082351184}
-  offset: {x: 0, y: 1.23, z: -8.83}
-  rot: {x: 0, y: 0}
+  m_LocalEulerAnglesHint: {x: 15.824, y: 0, z: 0}
 --- !u!1 &1565330025
 GameObject:
   m_ObjectHideFlags: 0
@@ -577,7 +563,6 @@ GameObject:
   - component: {fileID: 1565330026}
   - component: {fileID: 1565330029}
   - component: {fileID: 1565330028}
-  - component: {fileID: 1565330027}
   m_Layer: 5
   m_Name: AirTime
   m_TagString: Untagged
@@ -603,17 +588,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 59.12}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1565330027
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1565330025}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c80e70fea3dbfc4998a43e1794ae178, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1565330028
 MonoBehaviour:
   m_ObjectHideFlags: 0
