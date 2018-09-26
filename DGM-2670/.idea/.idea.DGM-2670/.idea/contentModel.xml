@@ -39,6 +39,8 @@
           <e p="ForEachLoops.cs" t="Include" />
           <e p="HealthBar.cs" t="Include" />
           <e p="IfStatements.cs" t="Include" />
+          <e p="Letter.cs" t="Include" />
+          <e p="Letters.cs" t="Include" />
           <e p="MovePattern.cs" t="Include" />
           <e p="MovePatternDual.cs" t="Include" />
           <e p="MovePatternNotGrounded.cs" t="Include" />
@@ -47,6 +49,7 @@
           <e p="RunCountDown.cs" t="Include" />
           <e p="Score.cs" t="Include" />
           <e p="SwitchScripts.cs" t="Include" />
+          <e p="Word.cs" t="Include" />
         </e>
       </e>
       <e p="DGM-2670.sln" t="IncludeFlat" />
