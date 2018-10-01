@@ -23,6 +23,7 @@
           <e p="TriggerStayEvent.cs" t="Include" />
           <e p="UpdateEvent.cs" t="Include" />
         </e>
+        <e p="ObjectID.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AIAgnent.cs" t="Include" />
           <e p="AirTime.cs" t="Include" />
@@ -30,6 +31,7 @@
           <e p="CameraMovment.cs" t="Include" />
           <e p="CarToPlane.cs" t="Include" />
           <e p="CharacterMovment.cs" t="Include" />
+          <e p="Dragable.cs" t="Include" />
           <e p="EndGame.cs" t="Include" />
           <e p="EVv2.cs" t="Include" />
           <e p="FloatBool.cs" t="Include" />
@@ -44,11 +46,13 @@
           <e p="MovePattern.cs" t="Include" />
           <e p="MovePatternDual.cs" t="Include" />
           <e p="MovePatternNotGrounded.cs" t="Include" />
+          <e p="nameID.cs" t="Include" />
           <e p="NewEventScript.cs" t="Include" />
           <e p="PrefabData.cs" t="Include" />
           <e p="RunCountDown.cs" t="Include" />
           <e p="Score.cs" t="Include" />
           <e p="SwitchScripts.cs" t="Include" />
+          <e p="TriggerID.cs" t="Include" />
           <e p="Word.cs" t="Include" />
         </e>
       </e>
