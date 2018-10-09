@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\10721401\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_falling enemy game.-2145109065.00" t="ExcludeRecursive" />
+    <e p="C:\Users\10721401\Documents\Git\DGM-2670-2018\DGM-2670\falling enemy game" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="CharacterMovment.cs" t="Include" />
+          <e p="ControllerColliderHitEvent.cs" t="Include" />
+          <e p="DestroyEvent.cs" t="Include" />
+          <e p="FloatDataScript.cs" t="Include" />
+          <e p="FloatInput.cs" t="Include" />
+          <e p="InstanceObjects.cs" t="Include" />
+          <e p="Manager.cs" t="Include" />
+          <e p="MovePattern.cs" t="Include" />
+          <e p="MovePatternDual.cs" t="Include" />
+          <e p="MovePatternNotGrounded.cs" t="Include" />
+          <e p="TriggerEnterEvent.cs" t="Include" />
+        </e>
+      </e>
+      <e p="falling enemy game.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
