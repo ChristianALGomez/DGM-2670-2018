@@ -1,0 +1,3 @@
+[submodule "Git/DGM-2670-2018/DGM-2670/Assets"]
+	path = Git/DGM-2670-2018/DGM-2670/Assets
+	url = https://github.com/ChristianALGomez/NavMeshComponents.git
