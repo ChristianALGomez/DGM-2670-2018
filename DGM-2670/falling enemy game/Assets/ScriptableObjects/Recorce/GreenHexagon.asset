@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01ac992b434adbd4a90ca790f127babb, type: 3}
+  m_Name: GreenHexagon
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 1954037019677928, guid: 67d92b067f9689f4c96ee3acfdbba233, type: 2}
+  SpriteImage: {fileID: 21300002, guid: 259eb02916b2a29468fc3c50c9fcba5b, type: 3}
+  SpriteColor: {r: 0.25497222, g: 1, b: 0, a: 1}
