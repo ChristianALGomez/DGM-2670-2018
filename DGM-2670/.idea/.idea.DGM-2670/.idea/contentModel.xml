@@ -50,6 +50,7 @@
           <e p="InstanceObjects.cs" t="Include" />
           <e p="Letter.cs" t="Include" />
           <e p="Letters.cs" t="Include" />
+          <e p="MatchID.cs" t="Include" />
           <e p="MovePattern.cs" t="Include" />
           <e p="MovePatternDual.cs" t="Include" />
           <e p="MovePatternNotGrounded.cs" t="Include" />
@@ -58,6 +59,7 @@
           <e p="PrefabData.cs" t="Include" />
           <e p="RunCountDown.cs" t="Include" />
           <e p="Score.cs" t="Include" />
+          <e p="Snap.cs" t="Include" />
           <e p="SwitchScripts.cs" t="Include" />
           <e p="TriggerID.cs" t="Include" />
           <e p="Word.cs" t="Include" />
