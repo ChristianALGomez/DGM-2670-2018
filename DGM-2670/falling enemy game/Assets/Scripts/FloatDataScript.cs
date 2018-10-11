@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "NewFloat", menuName = "CG/FloatData")]
+[CreateAssetMenu(fileName = "NewFloat", menuName = "Float/FloatData")]
 public class FloatDataScript : ScriptableObject
 {
     public float value;

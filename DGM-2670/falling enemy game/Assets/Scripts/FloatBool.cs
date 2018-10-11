@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Experimental.PlayerLoop;
 
-[CreateAssetMenu(fileName = "NewFloatBool")]
+[CreateAssetMenu(menuName = "Float/FloatBool")]
 public class FloatBool : FloatInput
 {
     public override float Value

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu]
+[CreateAssetMenu(fileName = "NewMovment", menuName = "Move/MovePattern")]
 public class MovePattern : ScriptableObject
 {
     public FloatDataScript gravity;

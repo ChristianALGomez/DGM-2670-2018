@@ -5,7 +5,7 @@ using UnityEngine;
 public class HealthBar : MonoBehaviour
 {
 
-	public FloutData Health;
+	public FloatDataScript Health;
 	
 	// Use this for initialization
 	void Start () {

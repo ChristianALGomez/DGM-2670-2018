@@ -5,7 +5,7 @@ using UnityEngine;
 public class EndGame : MonoBehaviour
 {
 
-	public FloutData Health;
+	public FloatDataScript Health;
 	
 	// Use this for initialization
 	void Start () {

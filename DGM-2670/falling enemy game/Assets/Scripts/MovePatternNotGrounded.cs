@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "Move/MovePatternNotGrounded")]
 public class MovePatternNotGrounded : MovePattern
 {
 

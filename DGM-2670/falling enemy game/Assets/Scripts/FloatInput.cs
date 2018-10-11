@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Experimental.UIElements;
 
-[CreateAssetMenu(fileName = "FloatInput")]
+[CreateAssetMenu(menuName = "Float/FloatInput")]
 public class FloatInput : FloatDataScript
 {
     public string InputType;
