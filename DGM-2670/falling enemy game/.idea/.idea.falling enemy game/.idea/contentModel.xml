@@ -20,6 +20,8 @@
           <e p="FloatDataScript.cs" t="Include" />
           <e p="FloatInput.cs" t="Include" />
           <e p="ForEachLoops.cs" t="Include" />
+          <e p="GetClock.cs" t="Include" />
+          <e p="GetScore.cs" t="Include" />
           <e p="HealthBar.cs" t="Include" />
           <e p="Holder.cs" t="Include" />
           <e p="IfStatements.cs" t="Include" />
