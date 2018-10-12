@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4591946427685940}
   - component: {fileID: 212689849354262562}
   - component: {fileID: 143748827383403412}
-  - component: {fileID: 114517942082322002}
+  - component: {fileID: 114668517851782754}
   m_Layer: 0
   m_Name: FallingEnemy
   m_TagString: Untagged
@@ -42,7 +42,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114517942082322002
+--- !u!114 &114668517851782754
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -50,10 +50,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1214265237416180}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 441cbfdfba07d014d9e0957a85b30220, type: 3}
+  m_Script: {fileID: 11500000, guid: 27ce38fc0daa14942858be8fe1382b1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Pattern: {fileID: 11400000, guid: ecb17f9802a08b3499f769eed05ffcef, type: 2}
+  EMove: {fileID: 11400000, guid: 2ff74fbcbb5a97c40b90972b2fa806b4, type: 2}
 --- !u!143 &143748827383403412
 CharacterController:
   m_ObjectHideFlags: 1

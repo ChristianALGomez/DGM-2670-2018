@@ -14,7 +14,8 @@
           <e p="CarToPlane.cs" t="Include" />
           <e p="CharacterMovment.cs" t="Include" />
           <e p="EndGame.cs" t="Include" />
-          <e p="EVv2.cs" t="Include" />
+          <e p="EnemeyMovePattern.cs" t="Include" />
+          <e p="EnemyMovment.cs" t="Include" />
           <e p="FloatBool.cs" t="Include" />
           <e p="FloatDataScript.cs" t="Include" />
           <e p="FloatInput.cs" t="Include" />
