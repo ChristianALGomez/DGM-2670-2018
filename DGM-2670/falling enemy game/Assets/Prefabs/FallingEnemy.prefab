@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212689849354262562}
   - component: {fileID: 143748827383403412}
   - component: {fileID: 114668517851782754}
+  - component: {fileID: 65395331461457988}
   m_Layer: 0
   m_Name: FallingEnemy
   m_TagString: Untagged
@@ -42,6 +43,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65395331461457988
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1214265237416180}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6673387, y: 0.29045868, z: 0.2}
+  m_Center: {x: 0.073913515, y: -0.018318176, z: 0}
 --- !u!114 &114668517851782754
 MonoBehaviour:
   m_ObjectHideFlags: 1

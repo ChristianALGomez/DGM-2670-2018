@@ -12,13 +12,13 @@ public class RunCountDown : MonoBehaviour
     {
         label = GetComponent<Text>();
 
-        int number = 100;
+        int number = 1;
 
         while (number > 0)
         {
             yield return new WaitForSeconds(0.01f);
             label.text = number.ToString();
-            number--;
+            number++;
         }
 
         label.text = "";

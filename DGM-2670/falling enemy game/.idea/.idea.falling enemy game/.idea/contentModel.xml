@@ -11,8 +11,8 @@
           <e p="AirTime.cs" t="Include" />
           <e p="AISpeedUp.cs" t="Include" />
           <e p="CameraMovment.cs" t="Include" />
-          <e p="CarToPlane.cs" t="Include" />
           <e p="CharacterMovment.cs" t="Include" />
+          <e p="Clock.cs" t="Include" />
           <e p="EndGame.cs" t="Include" />
           <e p="EnemeyMovePattern.cs" t="Include" />
           <e p="EnemyMovment.cs" t="Include" />
@@ -21,6 +21,7 @@
           <e p="FloatInput.cs" t="Include" />
           <e p="ForEachLoops.cs" t="Include" />
           <e p="HealthBar.cs" t="Include" />
+          <e p="Holder.cs" t="Include" />
           <e p="IfStatements.cs" t="Include" />
           <e p="InstanceObject.cs" t="Include" />
           <e p="MovePattern.cs" t="Include" />
