@@ -13,6 +13,7 @@
           <e p="CameraMovment.cs" t="Include" />
           <e p="CharacterMovment.cs" t="Include" />
           <e p="Clock.cs" t="Include" />
+          <e p="Collectables.cs" t="Include" />
           <e p="EndGame.cs" t="Include" />
           <e p="EnemeyMovePattern.cs" t="Include" />
           <e p="EnemyMovment.cs" t="Include" />
