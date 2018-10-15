@@ -4,7 +4,15 @@ using UnityEngine;
 
 public class Trigger_Exit : MonoBehaviour {
     
-    private void OnTriggerExit(Collider other)
+    /*private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Ground"))
+        {
+            Destroy(gameObject);
+        }
+    }*/
+
+    private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Ground"))
         {
