@@ -55,6 +55,7 @@ GameObject:
   - component: {fileID: 4927344537060202}
   - component: {fileID: 65908973904916018}
   - component: {fileID: 114599024123513832}
+  - component: {fileID: 114626427596556364}
   m_Layer: 0
   m_Name: point/kill
   m_TagString: Untagged
@@ -167,7 +168,19 @@ MonoBehaviour:
   value: 5
   colorTint: {r: 1, g: 0, b: 0.06491566, a: 0}
   myHolder: {fileID: 114962338181005356, guid: 298aab04d7422f846a9afd3143a7dcce, type: 2}
-  Thing: {fileID: 1145295425504144, guid: 8229053f34518a7488aedd39d625f617, type: 2}
+  Thing: {fileID: 0}
+--- !u!114 &114626427596556364
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1774384244475456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b903ccfaaa8ed64483e40f0af0d4e98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: {fileID: 11400000, guid: 65c00aefe4b8f8d4cac5238b75e405a7, type: 2}
 --- !u!212 &212542206174215862
 SpriteRenderer:
   m_ObjectHideFlags: 1
