@@ -9,6 +9,7 @@ public class Points : MonoBehaviour {
 	public Holder myHolder;
 	public Collider Ground;
 	//public PrefabData Ground;
+	//public LayerMask Ground;
 
 	private void Start()
 	{
