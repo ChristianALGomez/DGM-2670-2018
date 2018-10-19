@@ -8,7 +8,8 @@ public class Points : MonoBehaviour {
 	public Color colorTint;
 	private GameObject Holder;
 	public Holder myHolder;
-	public Collider Thing;
+	//public Collider Ground;
+	public PrefabData Ground;
 
 	private void Start()
 	{
@@ -26,7 +27,7 @@ public class Points : MonoBehaviour {
 
 	private void OnTriggerEnter(Collider collider)
 	{
-		if (Thing == collider)
+		if (Ground == collider)
 		{
 			myHolder.IncrementScore(value);
 			Destroy(gameObject);

@@ -168,7 +168,7 @@ MonoBehaviour:
   value: 5
   colorTint: {r: 1, g: 0, b: 0.06491566, a: 0}
   myHolder: {fileID: 114962338181005356, guid: 298aab04d7422f846a9afd3143a7dcce, type: 2}
-  Thing: {fileID: 0}
+  Ground: {fileID: 11400000, guid: 892a1591e952459489a40c5c38e37937, type: 2}
 --- !u!114 &114626427596556364
 MonoBehaviour:
   m_ObjectHideFlags: 1
