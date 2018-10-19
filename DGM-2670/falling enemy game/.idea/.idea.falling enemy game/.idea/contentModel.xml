@@ -6,30 +6,38 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
-          <e p="CameraMovment.cs" t="Include" />
-          <e p="CharacterMovment.cs" t="Include" />
           <e p="Clock.cs" t="Include" />
           <e p="Collectables.cs" t="Include" />
           <e p="EndGame.cs" t="Include" />
-          <e p="EnemeyMovePattern.cs" t="Include" />
-          <e p="EnemyMovment.cs" t="Include" />
-          <e p="FallEn.cs" t="Include" />
-          <e p="FloatBool.cs" t="Include" />
-          <e p="FloatDataScript.cs" t="Include" />
-          <e p="FloatInput.cs" t="Include" />
+          <e p="Floats" t="Include">
+            <e p="FloatBool.cs" t="Include" />
+            <e p="FloatDataScript.cs" t="Include" />
+            <e p="FloatInput.cs" t="Include" />
+          </e>
           <e p="ForEachLoops.cs" t="Include" />
           <e p="GetClock.cs" t="Include" />
           <e p="GetScore.cs" t="Include" />
           <e p="Holder.cs" t="Include" />
+          <e p="ID" t="Include">
+            <e p="MatchID.cs" t="Include" />
+            <e p="NameID.cs" t="Include" />
+            <e p="ObjectID.cs" t="Include" />
+          </e>
           <e p="IfStatements.cs" t="Include" />
           <e p="InstanceObject.cs" t="Include" />
           <e p="KillPlayer.cs" t="Include" />
           <e p="Manager.cs" t="Include" />
-          <e p="MovePattern.cs" t="Include" />
-          <e p="MovePatternDual.cs" t="Include" />
-          <e p="MovePatternNotGrounded.cs" t="Include" />
+          <e p="Move" t="Include">
+            <e p="CameraMovment.cs" t="Include" />
+            <e p="CharacterMovment.cs" t="Include" />
+            <e p="EnemeyMovePattern.cs" t="Include" />
+            <e p="EnemyMovment.cs" t="Include" />
+            <e p="FallEn.cs" t="Include" />
+            <e p="MovePattern.cs" t="Include" />
+            <e p="MovePatternDual.cs" t="Include" />
+            <e p="MovePatternNotGrounded.cs" t="Include" />
+          </e>
           <e p="NewEventScript.cs" t="Include" />
-          <e p="ObjectID.cs" t="Include" />
           <e p="ParpeturalCounter.cs" t="Include" />
           <e p="Points.cs" t="Include" />
           <e p="PrefabData.cs" t="Include" />

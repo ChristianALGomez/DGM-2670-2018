@@ -5,11 +5,10 @@ using UnityEngine;
 public class Points : MonoBehaviour {
 
 	public int value;
-	public Color colorTint;
 	private GameObject Holder;
 	public Holder myHolder;
-	//public Collider Ground;
-	public PrefabData Ground;
+	public Collider Ground;
+	//public PrefabData Ground;
 
 	private void Start()
 	{

@@ -9,8 +9,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 01ac992b434adbd4a90ca790f127babb, type: 3}
-  m_Name: New Prefab Data
+  m_Name: Ground
   m_EditorClassIdentifier: 
-  Prefab: {fileID: 0}
-  SpriteImage: {fileID: 0}
+  Prefab: {fileID: 1145295425504144, guid: 8229053f34518a7488aedd39d625f617, type: 2}
+  SpriteImage: {fileID: 21300000, guid: 29418b9e6af1b1f4f9796d09b674e555, type: 3}
   SpriteColor: {r: 0, g: 0, b: 0, a: 0}
