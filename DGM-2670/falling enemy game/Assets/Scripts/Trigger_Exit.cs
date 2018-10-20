@@ -2,19 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Trigger_Exit : MonoBehaviour {
-    
-    /*private void OnTriggerExit(Collider other)
+public class Trigger_Exit : MonoBehaviour
+{
+    private void OnCollisionExit(Collision collision)
     {
-        if (other.gameObject.CompareTag("Ground"))
-        {
-            Destroy(gameObject);
-        }
-    }*/
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.CompareTag("Ground"))
+        if (collision.gameObject.CompareTag("Ground"))
         {
             Destroy(gameObject);
         }

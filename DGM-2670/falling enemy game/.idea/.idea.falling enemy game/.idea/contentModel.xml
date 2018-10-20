@@ -10,6 +10,7 @@
           <e p="Clock.cs" t="Include" />
           <e p="Collectables.cs" t="Include" />
           <e p="EndGame.cs" t="Include" />
+          <e p="Final_Time_Score.cs" t="Include" />
           <e p="Floats" t="Include">
             <e p="FloatBool.cs" t="Include" />
             <e p="FloatDataScript.cs" t="Include" />
@@ -18,6 +19,7 @@
           <e p="ForEachLoops.cs" t="Include" />
           <e p="GetClock.cs" t="Include" />
           <e p="GetScore.cs" t="Include" />
+          <e p="HighScore.cs" t="Include" />
           <e p="Holder.cs" t="Include" />
           <e p="ID" t="Include">
             <e p="MatchID.cs" t="Include" />

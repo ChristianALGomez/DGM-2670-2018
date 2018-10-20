@@ -7,14 +7,14 @@ public class Points : MonoBehaviour {
 	public int value;
 	private GameObject Holder;
 	public Holder myHolder;
-	public GameObject Ground;
+	//public GameObject Ground;
 	//public PrefabData Ground;
 	//public LayerMask Ground;
 
 	private void Start()
 	{
 		myHolder = FindObjectOfType<Holder>().GetComponent<Holder>();
-		Ground = GameObject.Find("Ground");
+		//Ground = GameObject.Find("Ground");
 	}
 
 	/*private void OnTriggerEnter(Collider collider)
@@ -31,7 +31,6 @@ public class Points : MonoBehaviour {
 		if (collider.CompareTag("Ground") == collider)
 		{
 			myHolder.IncrementScore(value);
-			Destroy(gameObject);
 		}
 	}
 }
