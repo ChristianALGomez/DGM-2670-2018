@@ -166,7 +166,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   value: 5
   myHolder: {fileID: 114962338181005356, guid: 298aab04d7422f846a9afd3143a7dcce, type: 2}
-  Ground: {fileID: 0}
+  ground: {fileID: 0}
 --- !u!212 &212542206174215862
 SpriteRenderer:
   m_ObjectHideFlags: 1
