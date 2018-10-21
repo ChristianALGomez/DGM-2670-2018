@@ -271,6 +271,7 @@ GameObject:
   - component: {fileID: 487486890}
   - component: {fileID: 487486895}
   - component: {fileID: 487486894}
+  - component: {fileID: 487486896}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -381,6 +382,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timerText: {fileID: 814197909}
   startTime: {fileID: 11400000, guid: a3eaab9d405d738469cdedf65d773ea7, type: 2}
+--- !u!114 &487486896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 487486889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71d7def6dc8ecba4c892cbad3a01afb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &503768748
 GameObject:
   m_ObjectHideFlags: 0
@@ -585,7 +597,7 @@ MonoBehaviour:
         m_MethodName: Call
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1440670945531572, guid: e373f9fe5ff3f264c81660c701f19625,
+          m_ObjectArgument: {fileID: 1691756950345958, guid: 53d23d3722af78340a0923fb0f808d9a,
             type: 2}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
@@ -647,6 +659,16 @@ Prefab:
     - target: {fileID: 4227479143644164, guid: 8229053f34518a7488aedd39d625f617, type: 2}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 65596010396469240, guid: 8229053f34518a7488aedd39d625f617,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 0.6454514
+      objectReference: {fileID: 0}
+    - target: {fileID: 65596010396469240, guid: 8229053f34518a7488aedd39d625f617,
+        type: 2}
+      propertyPath: m_Center.y
+      value: 0.09727411
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8229053f34518a7488aedd39d625f617, type: 2}

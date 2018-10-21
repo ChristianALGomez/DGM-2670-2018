@@ -21,6 +21,9 @@ GameObject:
   - component: {fileID: 4430525265358808}
   - component: {fileID: 212542206174215862}
   - component: {fileID: 54441637285428798}
+  - component: {fileID: 65813607869952128}
+  - component: {fileID: 114191245290848366}
+  - component: {fileID: 114286927908830492}
   m_Layer: 0
   m_Name: FallingEnemy
   m_TagString: Untagged
@@ -36,8 +39,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4857286599841822}
-  - component: {fileID: 114475180373943604}
-  - component: {fileID: 65650054876400762}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -118,18 +119,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &65650054876400762
+--- !u!65 &65813607869952128
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1440670945531572}
+  m_GameObject: {fileID: 1076602545177666}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.7338085, y: 0.3646288, z: 1}
-  m_Center: {x: 0.062642336, y: 0.23714542, z: 0}
+  m_Size: {x: 1.6921672, y: 0.84, z: 0.2}
+  m_Center: {x: 0.07123214, y: 0, z: 0}
 --- !u!65 &65908973904916018
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -142,17 +143,29 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.3705627, y: 0.21336651, z: 1}
   m_Center: {x: 0.07476276, y: -0.0747627, z: 0}
---- !u!114 &114475180373943604
+--- !u!114 &114191245290848366
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1440670945531572}
+  m_GameObject: {fileID: 1076602545177666}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f8c1a76471057da4da582745afd05d9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114286927908830492
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1076602545177666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bd5e4d79f00dd845872eb592726af13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!114 &114599024123513832
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -166,7 +179,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   value: 5
   myHolder: {fileID: 114962338181005356, guid: 298aab04d7422f846a9afd3143a7dcce, type: 2}
-  ground: {fileID: 0}
 --- !u!212 &212542206174215862
 SpriteRenderer:
   m_ObjectHideFlags: 1

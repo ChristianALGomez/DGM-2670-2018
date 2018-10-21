@@ -6,7 +6,7 @@ using UnityEngine.Events;
 public class ParpeturalCounter : MonoBehaviour
 {
     public UnityEvent OnCount;
-    public float Seconds = 1;
+    public float Seconds = 1f;
 
     IEnumerator Start()
     {

@@ -9,6 +9,7 @@
         <e p="Scripts" t="Include">
           <e p="Clock.cs" t="Include" />
           <e p="Collectables.cs" t="Include" />
+          <e p="DoNotDestory.cs" t="Include" />
           <e p="EndGame.cs" t="Include" />
           <e p="Final_Time_Score.cs" t="Include" />
           <e p="Floats" t="Include">

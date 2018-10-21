@@ -4,14 +4,18 @@ using UnityEngine;
 
 public class KillPlayer : MonoBehaviour
 {
+    public GameObject player;
 
-    public GameObject Player;
-
-    private void OnTriggerEnter(Collider other)
+    private void Start()
     {
-        if (CompareTag("Player"))
+        player = GameObject.Find("Player");
+    }
+
+    private void OnTriggerEnter(Collider collider)
+    {
+        if (collider.CompareTag("Player") == collider)
         {
-            Destroy(gameObject);
+            Destroy(player);
         }
     }
 }
