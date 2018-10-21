@@ -18,4 +18,5 @@ public class KillPlayer : MonoBehaviour
             Destroy(player);
         }
     }
+    
 }
