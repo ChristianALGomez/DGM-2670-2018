@@ -1,16 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class UpScore : MonoBehaviour
+[CreateAssetMenu]
+public class UpScore : ScriptableObject
 {
 
 
-    public Holder myHolder;
+    public Holder MyHolder;
+    public GameObject Holder;
     public int value;
-    
-    private void PointIncrease()
+
+
+
+
+    public void Score()
     {
-        myHolder.IncrementScore(value);
+        MyHolder.IncrementScore(value);
     }
 }
