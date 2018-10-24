@@ -1,17 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class Spawner : MonoBehaviour
+[CreateAssetMenu]
+public class Spawner : ScriptableObject
 {
     public GameObject obj;
     public float MaxNum;
     public float MinNum;
+    public float Hi;
     
-    
-    void Start()
+    public void Call(GameObject instance)
     {
-        Vector3 position = new Vector3(Random.Range(MinNum, MaxNum), 0, Random.Range(MinNum, MaxNum));
+        Vector3 position = new Vector3(Random.Range(MinNum, MaxNum), Hi, Random.Range(0, 0));
         Instantiate(obj, position, Quaternion.identity);
+        //Instantiate(obj);
+
     }
 }

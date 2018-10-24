@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82bfd70ff6ef3e94fae25b08e408f033, type: 3}
+  m_Name: New Spawner
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1440670945531572, guid: e373f9fe5ff3f264c81660c701f19625, type: 2}
+  MaxNum: 4
+  MinNum: -4
+  Hi: 5
