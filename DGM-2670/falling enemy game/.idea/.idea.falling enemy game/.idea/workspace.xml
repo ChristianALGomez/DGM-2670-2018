@@ -12,7 +12,7 @@
     <session id="722021452">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="1" />
@@ -28,12 +28,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="2026" />
+          <entry key="cs" value="2068" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="2026" />
+          <entry key="C#" value="2068" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -53,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/InstanceObject.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+            <state relative-caret-position="30">
+              <caret line="4" column="48" lean-forward="true" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
               <folding>
                 <marker date="1539901582126" expanded="false" signature="6:78" ph="..." />
                 <marker date="1539901582126" expanded="true" signature="144:238" ph="{...}" />
@@ -94,22 +94,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ParpeturalCounter.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            <state relative-caret-position="195">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
               <folding>
-                <marker date="1540522732755" expanded="false" signature="6:104" ph="..." />
-                <marker date="1540522732755" expanded="true" signature="152:390" ph="{...}" />
-                <marker date="1540522732755" expanded="true" signature="241:378" ph="{...}" />
-                <marker date="1540522732755" expanded="true" signature="268:372" ph="{...}" />
+                <marker date="1540524034401" expanded="false" signature="6:104" ph="..." />
+                <marker date="1540524034401" expanded="true" signature="152:380" ph="{...}" />
+                <marker date="1540524034401" expanded="true" signature="241:378" ph="{...}" />
+                <marker date="1540524034401" expanded="true" signature="268:372" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ForEachLoops.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -296,7 +296,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18389262" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -498,12 +497,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/InstanceObject.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        <state relative-caret-position="30">
+          <caret line="4" column="48" lean-forward="true" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
           <folding>
             <marker date="1539901582126" expanded="false" signature="6:78" ph="..." />
             <marker date="1539901582126" expanded="true" signature="144:238" ph="{...}" />
             <marker date="1539901582126" expanded="true" signature="188:231" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <marker date="1540488356589" expanded="false" signature="6:78" ph="..." />
+            <marker date="1540488356589" expanded="true" signature="136:477" ph="{...}" />
+            <marker date="1540488356589" expanded="true" signature="283:475" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -522,14 +533,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawner.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ParpeturalCounter.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="195">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
           <folding>
-            <marker date="1540488356589" expanded="false" signature="6:78" ph="..." />
-            <marker date="1540488356589" expanded="true" signature="136:477" ph="{...}" />
-            <marker date="1540488356589" expanded="true" signature="283:475" ph="{...}" />
+            <marker date="1540524034401" expanded="false" signature="6:104" ph="..." />
+            <marker date="1540524034401" expanded="true" signature="152:380" ph="{...}" />
+            <marker date="1540524034401" expanded="true" signature="241:378" ph="{...}" />
+            <marker date="1540524034401" expanded="true" signature="268:372" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -542,19 +554,6 @@
             <marker date="1539901582119" expanded="false" signature="6:78" ph="..." />
             <marker date="1539901582119" expanded="true" signature="143:529" ph="{...}" />
             <marker date="1539901582119" expanded="true" signature="266:527" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ParpeturalCounter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding>
-            <marker date="1540522732755" expanded="false" signature="6:104" ph="..." />
-            <marker date="1540522732755" expanded="true" signature="152:390" ph="{...}" />
-            <marker date="1540522732755" expanded="true" signature="241:378" ph="{...}" />
-            <marker date="1540522732755" expanded="true" signature="268:372" ph="{...}" />
           </folding>
         </state>
       </provider>

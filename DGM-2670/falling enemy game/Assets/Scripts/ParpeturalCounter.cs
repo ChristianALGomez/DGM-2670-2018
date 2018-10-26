@@ -16,6 +16,4 @@ public class ParpeturalCounter : MonoBehaviour
             yield return new WaitForSeconds(Seconds);
         }
     }
-    
-    
 }
