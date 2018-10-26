@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 369325253}
   - component: {fileID: 369325252}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Spanwer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -302,7 +302,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  Seconds: 0.5
+  Seconds: 0.3
 --- !u!4 &369325253
 Transform:
   m_ObjectHideFlags: 0

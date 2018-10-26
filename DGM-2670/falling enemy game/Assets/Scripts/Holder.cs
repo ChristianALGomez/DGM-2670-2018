@@ -27,7 +27,7 @@ public class Holder : MonoBehaviour {
 	// Update is called once per frame
 	void Update()
 	{
-		if (SceneManager.GetActiveScene().name == "Menu")
+		if (SceneManager.GetActiveScene().name == "Main_Menu")
 		{
 			Destroy(gameObject);
 		}
