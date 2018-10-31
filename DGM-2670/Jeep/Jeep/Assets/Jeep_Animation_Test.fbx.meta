@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0c8ee90c7ccc1be4a9d6a33cd821b35a
+guid: 06179feada10bdb4b9e62b0790e3baa5
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -633,8 +633,57 @@ ModelImporter:
     4300202: polySurface104
     7400000: Take 001
     9500000: //RootNode
-    2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bolts
+    second: {fileID: 2100000, guid: 338e3be4134f3e94895763ee04d69851, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GearShift_Holder
+    second: {fileID: 2100000, guid: ce23699f03b414f4f82c6dbd7a485e70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lights
+    second: {fileID: 2100000, guid: 4ffa9bb1ae061c846aad29a155755b57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mirror
+    second: {fileID: 2100000, guid: 28d5d0970ff51384fa6ffc89879c26ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nobs_Peddles
+    second: {fileID: 2100000, guid: 1cda4bae75fa3ca4dba56e027d6f6d09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stearing_wheel
+    second: {fileID: 2100000, guid: bbf6555cfa0b9964b903cc5dc9315187, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Base
+    second: {fileID: 2100000, guid: a8682bc2cb1657f41b784b7783a79dad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Metal
+    second: {fileID: 2100000, guid: f60bcfa4c378e8a4480e4d3bf92b0716, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Seats
+    second: {fileID: 2100000, guid: fa8a3c5921dbd7c4ab57ad87645b653a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Tires
+    second: {fileID: 2100000, guid: 0bc0fad02130182419eec2e930c3f186, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -665,7 +714,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 4
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
