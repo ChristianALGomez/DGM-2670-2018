@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0205cb8957891b44b142689caa23987, type: 3}
   m_Name: RecorderWindowSettings
   m_EditorClassIdentifier: 
-  m_Settings: {fileID: 114453118873154406}
---- !u!114 &114453118873154406
+  m_Settings: {fileID: 114379658999111574}
+--- !u!114 &114379658999111574
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -38,18 +38,18 @@ MonoBehaviour:
     m_Pattern: movie.<ext>
   m_DestinationPath:
     m_root: 1
-    m_leaf: Recordings
+    m_leaf: /Recordings
   m_InputsSettings:
     m_InputsSettingsAssets:
-    - {fileID: 114759140960612846}
-    - {fileID: 114640436593615248}
+    - {fileID: 114735922454020148}
+    - {fileID: 114507253572499642}
     ownerRecorderSettingsAssetId: 6b7c83af798d9004ab0e10ca9bfa3475
   m_RecorderTypeName: UnityEditor.Recorder.MediaRecorder, Assembly-CSharp-Editor,
     Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OutputFormat: 0
   m_VideoBitRateMode: 2
   m_AppendSuffix: 0
---- !u!114 &114640436593615248
+--- !u!114 &114507253572499642
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -58,12 +58,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fae41d0797227451ea4b10db1c086647, type: 3}
-  m_Name: db2ca04c-044b-4716-bb5f-c357e702cb3f
+  m_Name: 8f970b84-8480-4d9b-84b5-c8a3a6768993
   m_EditorClassIdentifier: 
   m_DisplayName: Audio
-  m_Id: 55fc1e8e-ee84-4cc3-9d45-2cf1961b9632
+  m_Id: ba0b6bb3-c7f4-4ecd-86fa-cea47b1d3ba6
   m_PreserveAudio: 1
---- !u!114 &114759140960612846
+--- !u!114 &114735922454020148
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -72,11 +72,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d935bf7a4fcf66488738bda5536c1cb, type: 3}
-  m_Name: 175f5bf4-ff1b-483e-83f4-bd9fedc0fa48
+  m_Name: ace59485-e9a6-4602-95e2-3b59ee5bf325
   m_EditorClassIdentifier: 
   m_DisplayName: Pixels
-  m_Id: c14f0498-ed4d-4308-bcb9-ea9f29977c1a
-  m_OutputSize: 720
+  m_Id: 7d4052dc-ef00-4a64-a15f-69a1aad169cd
+  m_OutputSize: 1080
   m_AspectRatio: 0
   m_ForceEvenSize: 1
   source: 1
