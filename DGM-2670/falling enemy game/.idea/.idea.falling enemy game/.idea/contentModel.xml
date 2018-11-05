@@ -48,6 +48,7 @@
           <e p="PrefabData.cs" t="Include" />
           <e p="RunCountDown.cs" t="Include" />
           <e p="Score.cs" t="Include" />
+          <e p="ShieldSpawn.cs" t="Include" />
           <e p="Spawner.cs" t="Include" />
           <e p="Trigger.cs" t="Include" />
           <e p="UpScore.cs" t="Include" />
