@@ -27,4 +27,12 @@ public class Trigger_Exit : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    private void OnTriggerEnter(Collider obj)
+    {
+        if (obj.CompareTag("Shield") == obj)
+        {
+            Destroy(gameObject);
+        }
+    }
 }

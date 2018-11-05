@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-[CreateAssetMenu]
-public class Destroy : ScriptableObject {
+public class Destroy : MonoBehaviour
+{
     
-    
-    public void DestroyGameObject()
+    public void DGO()
     {
+        Destroy(gameObject);
     }
 }
