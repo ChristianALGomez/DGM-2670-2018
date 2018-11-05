@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Trigger_Exit : MonoBehaviour
+public class Trigger : MonoBehaviour
 {
     /*private void OnCollisionExit(Collision collision)
     {
