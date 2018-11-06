@@ -7,7 +7,7 @@ public class ShieldSpawn : MonoBehaviour
 
     public GameObject Sheild;
     
-    private void OnTriggerExit(Collider collider)
+    private void OnTriggerEnter(Collider collider)
     {
         if (collider.CompareTag("Token") == collider)
         {

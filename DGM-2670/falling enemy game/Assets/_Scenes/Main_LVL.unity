@@ -309,7 +309,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &369325252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -352,6 +352,89 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &422699734
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 422699735}
+  - component: {fileID: 422699737}
+  - component: {fileID: 422699736}
+  - component: {fileID: 422699738}
+  m_Layer: 0
+  m_Name: Shield_PlaceHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &422699735
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 422699734}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1093555074}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &422699736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 422699734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d029bcffb982a346b9f2602073f15ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: {fileID: 11400000, guid: dcb189bd689053140a22b2bd95b0a61a, type: 2}
+  OnMatch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 963049d328da1b4459cb95b89532572d, type: 2}
+        m_MethodName: RestartScore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!65 &422699737
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 422699734}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.1845229, y: 1.9691551, z: 1}
+  m_Center: {x: 0.023075223, y: 0.14614236, z: 0}
+--- !u!114 &422699738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 422699734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5304d9fe8a2747c4bbc93354022a11a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sheild: {fileID: 1971067594961816, guid: cbc027074d2b2a948b310e932d541360, type: 2}
 --- !u!1 &487486889
 GameObject:
   m_ObjectHideFlags: 0
@@ -726,6 +809,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8229053f34518a7488aedd39d625f617, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &1093555074 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4553149772768180, guid: e66f44a6b71904740b8c40919d3fd3e6,
+    type: 2}
+  m_PrefabInternal: {fileID: 136943922}
 --- !u!1001 &1149329931
 Prefab:
   m_ObjectHideFlags: 0
@@ -831,7 +919,7 @@ GameObject:
   - component: {fileID: 1388813489}
   - component: {fileID: 1388813492}
   m_Layer: 0
-  m_Name: GameArt_1
+  m_Name: ShToken
   m_TagString: Token
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -915,10 +1003,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1388813488}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5304d9fe8a2747c4bbc93354022a11a1, type: 3}
+  m_Script: {fileID: 11500000, guid: 7b903ccfaaa8ed64483e40f0af0d4e98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sheild: {fileID: 1971067594961816, guid: cbc027074d2b2a948b310e932d541360, type: 2}
+  ID: {fileID: 11400000, guid: dcb189bd689053140a22b2bd95b0a61a, type: 2}
 --- !u!1 &1735319407
 GameObject:
   m_ObjectHideFlags: 0
