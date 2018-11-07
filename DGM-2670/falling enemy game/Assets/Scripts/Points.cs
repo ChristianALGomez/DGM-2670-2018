@@ -28,9 +28,13 @@ public class Points : MonoBehaviour {
 
 	private void OnTriggerEnter(Collider collider)
 	{
-		if (collider.CompareTag("Ground") == collider)
+		if (collider.CompareTag("Ground")  == collider || collider.CompareTag("Points") == collider)
 		{
 			myHolder.IncrementScore(value);
 		}
 	}
+	
+	
+	
+	
 }

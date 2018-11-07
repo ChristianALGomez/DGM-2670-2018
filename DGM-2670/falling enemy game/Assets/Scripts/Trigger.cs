@@ -28,9 +28,9 @@ public class Trigger : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter(Collider obj)
+    private void OnTriggerEnter(Collider collider)
     {
-        if (obj.CompareTag("Shield") == obj)
+        if (collider.CompareTag("Shield") == collider)
         {
             Destroy(gameObject);
         }

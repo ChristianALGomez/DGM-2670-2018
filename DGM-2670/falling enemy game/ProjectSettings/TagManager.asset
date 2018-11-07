@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - Shield
   - Token
+  - Points
   layers:
   - Default
   - TransparentFX
@@ -55,4 +56,7 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Points
+    uniqueID: 3100172125
     locked: 0
