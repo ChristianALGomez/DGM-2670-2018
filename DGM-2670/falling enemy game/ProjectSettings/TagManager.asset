@@ -6,8 +6,8 @@ TagManager:
   tags:
   - Ground
   - Shield
-  - Token
   - Points
+  - Token
   layers:
   - Default
   - TransparentFX
