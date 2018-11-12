@@ -9,7 +9,12 @@ public class ActiveScript : MonoBehaviour
 
 	private void Start()
 	{
-		self.SetActive(true);
+		Debug.Log("Start");
+	}
+
+	private void OnTriggerEnter2D(Collider2D other)
+	{
+		Debug.Log("Match");
 	}
 
 	/*private void OnTriggerEnter(Collider collider)

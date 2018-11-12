@@ -10,7 +10,7 @@ public class Enabler : MonoBehaviour {
             switch (other.gameObject.name)
             {
                 case "enable":
-                    SetActiveScript.enable = false;
+                    SetActiveScript.enable = true;
                     break;
                 case "Disable":
                     SetActiveScript.enable = true;
