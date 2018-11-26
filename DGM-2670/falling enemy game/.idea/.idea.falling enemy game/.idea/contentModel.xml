@@ -13,6 +13,7 @@
           <e p="DoNotDestory.cs" t="Include" />
           <e p="Enabler.cs" t="Include" />
           <e p="EndGame.cs" t="Include" />
+          <e p="EventSheild.cs" t="Include" />
           <e p="Final_Time_Score.cs" t="Include" />
           <e p="Floats" t="Include">
             <e p="FloatBool.cs" t="Include" />

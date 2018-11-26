@@ -20,4 +20,9 @@ public class SetActiveScript : MonoBehaviour
             objectEnable.SetActive(false);
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("working");
+    }
 }

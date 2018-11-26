@@ -12,16 +12,14 @@ public class ActiveScript : MonoBehaviour
 		Debug.Log("Start");
 	}
 
-	private void OnTriggerEnter2D(Collider2D other)
+	private void OnTriggerEnter(Collider collider)
 	{
-		Debug.Log("Match");
-	}
-
-	/*private void OnTriggerEnter(Collider collider)
-	{
+		Debug.Log("first");
+		
 		if (collider.CompareTag("Token") == collider)
 		{
+			Debug.Log("Match");
 			self.SetActive(true);
 		}
-	}*/
+	}
 }
