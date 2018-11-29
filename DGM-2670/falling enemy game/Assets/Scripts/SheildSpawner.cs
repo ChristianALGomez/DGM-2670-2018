@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SheildSpawner : MonoBehaviour
+public class SheildSpawner : ScriptableObject
 {
 
     public GameObject Shield;
@@ -16,7 +16,7 @@ public class SheildSpawner : MonoBehaviour
         }
     }*/
 
-    private void OnTriggerEnter(Collider obj)
+    private void Spawn()
     {
 
         Instantiate(Shield);

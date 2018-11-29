@@ -392,7 +392,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1971067594961816, guid: cbc027074d2b2a948b310e932d541360, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114287009063256584, guid: cbc027074d2b2a948b310e932d541360, type: 2}
@@ -536,10 +536,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 422699734}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dfe1ca9b64af786428e4ae2c914a84a7, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d029bcffb982a346b9f2602073f15ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectEnable: {fileID: 1575530549}
+  ID: {fileID: 11400000, guid: dcb189bd689053140a22b2bd95b0a61a, type: 2}
+  OnMatch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: c352e3bfeaca28644bd2629a83d8a44c, type: 2}
+        m_MethodName: TurnOn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  NoMatch:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!65 &422699737
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1124,11 +1145,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!1 &1575530549 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1971067594961816, guid: cbc027074d2b2a948b310e932d541360,
-    type: 2}
-  m_PrefabInternal: {fileID: 270876736}
 --- !u!4 &1575530552 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4525544751664816, guid: cbc027074d2b2a948b310e932d541360,
