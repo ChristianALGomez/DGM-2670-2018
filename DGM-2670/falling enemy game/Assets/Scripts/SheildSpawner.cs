@@ -2,23 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SheildSpawner : ScriptableObject
+public class SheildSpawner : MonoBehaviour
 {
 
     public GameObject Shield;
     public Transform Spawnpoint;
+
     
-    /*private void OnTriggerExit(Collider collider)
-    {
-        if (collider.CompareTag("Token") == collider)
-        {
-            Instantiate(gameObject);
-        }
-    }*/
+
 
     private void Spawn()
     {
-
+        Shield = GameObject.Find("Shield");
         Instantiate(Shield);
         /*if (collider.CompareTag("Token") == collider)
         {

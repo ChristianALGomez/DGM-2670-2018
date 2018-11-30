@@ -8,6 +8,7 @@ public class ActiveScriptableObject : ScriptableObject
 
     public void TurnOn()
     {
+        
         Instantiate(obj);
     }
     
