@@ -33,6 +33,7 @@
           </e>
           <e p="IfStatements.cs" t="Include" />
           <e p="InstanceObject.cs" t="Include" />
+          <e p="IntData.cs" t="Include" />
           <e p="KillPlayer.cs" t="Include" />
           <e p="Manager.cs" t="Include" />
           <e p="Move" t="Include">
@@ -54,6 +55,12 @@
           <e p="SetActiveScript.cs" t="Include" />
           <e p="SheildSpawner.cs" t="Include" />
           <e p="Spawner.cs" t="Include" />
+          <e p="Store" t="Include">
+            <e p="PurchasableObject.cs" t="Include" />
+            <e p="PurchaseableObjectGenerator.cs" t="Include" />
+            <e p="PurchaseableObjects.cs" t="Include" />
+            <e p="StoreScript.cs" t="Include" />
+          </e>
           <e p="Trigger.cs" t="Include" />
           <e p="UpScore.cs" t="Include" />
         </e>
