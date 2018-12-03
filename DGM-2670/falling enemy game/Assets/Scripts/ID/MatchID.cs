@@ -13,6 +13,7 @@ public class MatchID : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         var otherId = other.GetComponent<MatchID>();
+        Debug.Log(other);
 
         if (otherId.ID == ID || otherId.MatchMade)
         {

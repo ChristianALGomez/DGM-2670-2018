@@ -54,3 +54,5 @@ MonoBehaviour:
   scoreboard: {fileID: 0}
   score: {fileID: 11400000, guid: affa9b3162366fa4abd64424ce4097c8, type: 2}
   timerText: {fileID: 0}
+  Fscore: {fileID: 11400000, guid: d6c00f661a7999b4fb736fb66f6776b8, type: 2}
+  FinScore: {fileID: 0}

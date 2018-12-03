@@ -10,6 +10,8 @@ public class Holder : MonoBehaviour {
 	public Text scoreboard;
 	public Score score;
 	public Text timerText;
+	public FinalScore Fscore;
+	public Text FinScore;
 	private float startTime;
 	//public Clock startTime;
 	private bool finnished = false;
@@ -53,5 +55,11 @@ public class Holder : MonoBehaviour {
 	{
 		score.value += value;
 		scoreboard.text = "Score: " + score.value.ToString();
+	}
+
+	public void IncrementFinalScore(int money)
+	{
+		Fscore.money += money;
+		FinScore.text = "$: " + Fscore.money.ToString();
 	}
 }

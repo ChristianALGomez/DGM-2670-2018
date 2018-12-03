@@ -2,22 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enabler : MonoBehaviour {
+public class Enabler : MonoBehaviour
+{
+
+    public GameObject obj;
+    
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Token") == other)
+        if (other.gameObject.layer == 12)
         {
-            switch (other.gameObject.name)
-            {
-                case "enable":
-                    SetActiveScript.enable = true;
-                    break;
-                case "Disable":
-                    SetActiveScript.enable = true;
-                    break;
-                        
-            }
+            obj.SetActive(true);
         }
         
     }
 }
+

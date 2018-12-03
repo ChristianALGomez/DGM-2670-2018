@@ -5,6 +5,7 @@ using UnityEngine;
 public class Points : MonoBehaviour {
 
 	public int value;
+	public int money;
 	private GameObject Holder;
 	public Holder myHolder;
 	//public GameObject Ground;
@@ -31,6 +32,7 @@ public class Points : MonoBehaviour {
 		if (collider.CompareTag("Ground")  == collider || collider.CompareTag("Points") == collider)
 		{
 			myHolder.IncrementScore(value);
+			myHolder.IncrementFinalScore(money);
 		}
 	}
 	
