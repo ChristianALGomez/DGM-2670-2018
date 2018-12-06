@@ -5,12 +5,14 @@ using UnityEngine;
 [CreateAssetMenu]
 public class FinalScore : ScriptableObject
 {
-    public int money;
+    public int Money;
 
 
     public void RestartFinalScore()
     {
-        money = 0;
+        Money = 0;
     }
     
 }
+
+//[ExecuteInEditMode]

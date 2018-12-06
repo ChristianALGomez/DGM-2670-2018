@@ -57,9 +57,9 @@ public class Holder : MonoBehaviour {
 		scoreboard.text = "Score: " + score.value.ToString();
 	}
 
-	public void IncrementFinalScore(int money)
+	public void IncrementFinalScore(int Cash)
 	{
-		Fscore.money += money;
-		FinScore.text = "$: " + Fscore.money.ToString();
+		Fscore.Money += Cash;
+		FinScore.text = "$: " + Fscore.Money.ToString();
 	}
 }

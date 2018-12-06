@@ -60,7 +60,7 @@
             <e p="PurchasableObject.cs" t="Include" />
             <e p="PurchaseableObjectGenerator.cs" t="Include" />
             <e p="PurchaseableObjects.cs" t="Include" />
-            <e p="StoreScript.cs" t="Include" />
+            <e p="Shop.cs" t="Include" />
           </e>
           <e p="Trigger.cs" t="Include" />
           <e p="UpScore.cs" t="Include" />
