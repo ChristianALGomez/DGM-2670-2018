@@ -29,6 +29,7 @@ public class Holder : MonoBehaviour {
 	// Update is called once per frame
 	void Update()
 	{
+		FinScore.text = "$: " + Fscore.Money.ToString();
 		if (SceneManager.GetActiveScene().name == "Main_Menu")
 		{
 			Destroy(gameObject);

@@ -10,6 +10,7 @@
           <e p="ActiveScriptableObject.cs" t="Include" />
           <e p="Clock.cs" t="Include" />
           <e p="Collectables.cs" t="Include" />
+          <e p="DestroyByTime.cs" t="Include" />
           <e p="DoNotDestory.cs" t="Include" />
           <e p="Enabler.cs" t="Include" />
           <e p="EndGame.cs" t="Include" />
@@ -55,6 +56,8 @@
           <e p="Score.cs" t="Include" />
           <e p="SetActiveScript.cs" t="Include" />
           <e p="SheildSpawner.cs" t="Include" />
+          <e p="ShieldMove.cs" t="Include" />
+          <e p="Shop2.cs" t="Include" />
           <e p="Spawner.cs" t="Include" />
           <e p="Store" t="Include">
             <e p="PurchasableObject.cs" t="Include" />

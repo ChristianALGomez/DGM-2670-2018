@@ -21,6 +21,8 @@ GameObject:
   - component: {fileID: 4833866642564506}
   - component: {fileID: 212267413180762088}
   - component: {fileID: 135361329297966262}
+  - component: {fileID: 114652494108010784}
+  - component: {fileID: 114795569832399222}
   m_Layer: 8
   m_Name: ShieldNoName
   m_TagString: Shield
@@ -41,6 +43,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114652494108010784
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1375859319744580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7523cc705be04e3478b5a462fecddc15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114795569832399222
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1375859319744580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df826bd283bceb24da2d0894dba4d480, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!135 &135361329297966262
 SphereCollider:
   m_ObjectHideFlags: 1
