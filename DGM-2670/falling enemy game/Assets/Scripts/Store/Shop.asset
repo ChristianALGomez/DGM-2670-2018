@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Item1: {fileID: 1971067594961816, guid: cbc027074d2b2a948b310e932d541360, type: 2}
   Item2: {fileID: 1375859319744580, guid: a7874d0d95fe8444a95405d30ca99468, type: 2}
-  ItemValue: 100
+  ItemValue: 500
   Item2Value: 100
   Cash: {fileID: 11400000, guid: d6c00f661a7999b4fb736fb66f6776b8, type: 2}
   Purchased: []
